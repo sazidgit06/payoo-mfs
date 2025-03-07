@@ -31,13 +31,13 @@
                 </div>
                 <!-- buttons -->
                 <div class="grid grid-cols-3">    
-                    <button class="btn btn-lg">Add Money</button>
-                    <button class="btn btn-lg">Cash Out</button>
+                    <button id="add-money-button-id" class="btn btn-lg">Add Money</button>
+                    <button id="cash-out-id" class="btn btn-lg">Cash Out</button>
                 </div>
                 <!-- divider -->
                 <div class="divider"></div>
                 <!-- add money form start -->
-                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <div id="add-money-form-id" class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                     <form class="card-body">
                       <div class="form-control">
                         <label class="label">
@@ -60,6 +60,30 @@
                     </form>
                   </div>
                 <!-- add money form end -->
+                <!-- cash out start -->
+                <div id="cash-out-form" class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                  <form class="card-body">
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Amount</span>
+                      </label>
+                      <input id="amount-out-id" type="text" placeholder="Enter amount" class="input input-bordered" required />
+                    </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Pin</span>
+                      </label>
+                      <input id="pin-id-out" type="password" placeholder="Enter pin" class="input input-bordered" required />
+                      <label class="label">
+                        <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                      </label>
+                    </div>
+                    <div class="form-control mt-4">
+                      <button id="cash-out" class="btn btn-primary">Cash out</button>
+                    </div>
+                  </form>
+                </div>
+                <!-- cash out end -->
             </div>
         </div>
     </main>
