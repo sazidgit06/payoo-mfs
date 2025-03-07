@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <!-- daisy ui v4-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <main class="flex justify-center">
+        <div class="mockup-phone">
+            <div class="camera"></div>
+            <div class="display">
+            <div class="artboard artboard-demo phone-3">
+                <!-- stat -->
+                <div class="stats shadow">
+                    <div class="stat">
+                      <div class="stat-value">$89400</div>
+                      <div class="stat-desc">Amount</div>
+                    </div>
+                  </div>
+                <!-- divider -->
+                <div class="divider"></div>
+                <!-- introduction -->
+                <div class="mb-3">
+                    <h3 class="font-bold">🔥 Welcome to Payooo!</h3>
+                    <p>Enjoy easy and convenient financial services with us. Cashout charge is low and</p>
+                </div>
+                <!-- buttons -->
+                <div class="grid grid-cols-3">    
+                    <button class="btn btn-lg">Add Money</button>
+                    <button class="btn btn-lg">Cash Out</button>
+                </div>
+                <!-- divider -->
+                <div class="divider"></div>
+                <!-- add money form start -->
+                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <form class="card-body">
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text">Amount</span>
+                        </label>
+                        <input type="email" placeholder="Enter amount" class="input input-bordered" required />
+                      </div>
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text">Pin</span>
+                        </label>
+                        <input type="password" placeholder="Enter pin" class="input input-bordered" required />
+                        <label class="label">
+                          <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                        </label>
+                      </div>
+                      <div class="form-control mt-4">
+                        <button class="btn btn-primary">Add money</button>
+                      </div>
+                    </form>
+                  </div>
+                <!-- add money form end -->
+            </div>
+        </div>
+    </main>
+</div>
+<script src="js/home.js"></script>
+</body>
+</html>
