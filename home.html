@@ -25,14 +25,15 @@
                 <!-- divider -->
                 <div class="divider"></div>
                 <!-- introduction -->
-                <div class="mb-3">
+                <!-- <div class="mb-3">
                     <h3 class="font-bold">🔥 Welcome to Payooo!</h3>
                     <p>Enjoy easy and convenient financial services with us. Cashout charge is low and</p>
-                </div>
+                </div> -->
                 <!-- buttons -->
                 <div class="grid grid-cols-3">    
-                    <button id="add-money-button-id" class="btn btn-lg">Add Money</button>
-                    <button id="cash-out-id" class="btn btn-lg">Cash Out</button>
+                    <button id="add-money-button-id" class="btn">Add Money</button>
+                    <button id="cash-out-id" class="btn">Cash Out</button>
+                    <button id="transaction-btn" class="btn">Transaction</button>
                 </div>
                 <!-- divider -->
                 <div class="divider"></div>
@@ -84,10 +85,22 @@
                   </form>
                 </div>
                 <!-- cash out end -->
+                <!-- transactions start -->
+                <div id="transaction-id" class="hidden">
+                  <h1 class="text-2xl font-bold">Transactions history</h1>
+                  <div id="transaction-container">
+
+                  </div>
+                </div>
+                <!-- transsactions end -->
             </div>
         </div>
     </main>
 </div>
-<script src="js/home.js"></script>
+<script src="js/function.js"></script>
+<script src="js/balance.js"></script>
+<script src="js/cashout.js"></script>
+<script src="js/showform.js"></script>
+
 </body>
 </html>

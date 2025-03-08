@@ -1,0 +1,9 @@
+document.getElementById('add-money-button-id').addEventListener('click',function(){
+    showForm('add-money-form-id');
+});
+document.getElementById('cash-out-id').addEventListener('click',function(){
+    showForm('cash-out-form');
+});
+document.getElementById('transaction-btn').addEventListener('click',function(){
+    showForm('transaction-id');
+});

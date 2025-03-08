@@ -3,7 +3,7 @@ document.getElementById('login-btn').addEventListener('click',function(event){
     const mobileNumber = document.getElementById('mobile-id').value;
     const pinNumber = document.getElementById('pin-id').value;
     console.log(mobileNumber, pinNumber);
-    if(mobileNumber === '5' && pinNumber === '1122'){
+    if(mobileNumber === '01713726345' && pinNumber === '1122'){
         alert('Loged in successfully');
         window.location.href = '/home.html';
     }else{
